@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style/style.css">
 
-    <header></header>
+    <header class="cabecalho">
+
+        <nav class="cabecalho__menu">
+            
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
 
     <main class="apresentacao">
     <section class="apresentacao__conteudo">
@@ -15,14 +23,26 @@
 
             <p class="apresentacao__conteudo__texto">Olá! Sou Matheus Bandeira, aluno da Alura futuro desenvolvedor Back-end com especialidade JavaScript, HTML e CSS. Vamos conversar?</p>
         <div class="apresentacao__links">
-            <a class="apresentacao__links__link" href="https://instagram.com/matheus.bandeira02">Instagram</a>
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
 
-             <a class="apresentacao__links__link"href="https://Github.com/MatheusBand">Github</a>
+            <a class="apresentacao__links__navegacao"href="https://Github.com/MatheusBand">
+                <img src="./assets/github.png">
+                Github</a>
+
+            <a class="apresentacao__links__navegacao" href="https://instagram.com/matheus.bandeira02">
+                <img src="./assets/instagram.png">
+                Instagram</a>
+
+                <a class="apresentacao__links__navegacao"href="https://linkedin.com/in/matheus-bandeira-471706347/">
+                    <img src="./assets/linkedin.png">
+                    Linkedin</a>
         </div>                                                                                                                            
     </section>
-        <img class="foto" src="minhaFoto.png">
+        <img class="foto" src="./assets/minhaFoto.png">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por matheus-bandeira.</p>
+    </footer>
 </head>
 <body>
     
